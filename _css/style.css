@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#Div1{
+	background-color: aqua;
+	min-height: 100px;
+	padding-top: 10px;
+}
+
+#Div2{
+	background-color: limegreen;
+	min-height: 50px;
+}
+
+#Div3{
+	background-color: yellow;
+	min-height: 50px;
+	margin: 10px 0px;
+}
+
+#Div4{
+	background-color: pink;
+	min-height: 300px;
+	margin: 10px 0px;
+}
+
+#Div5{
+	background-color: purple;
+	min-height: 140px;
+	margin: 10px 0px;
+}
+
+#Div6{
+	background-color: orange;
+	min-height: 140px;
+	margin: 10px 0px;
+}
+
+@media (max-width:575px){
+	#Div1{
+		background-color: white;
+	}
+}
